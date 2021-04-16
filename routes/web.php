@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,5 +17,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/testpage', function () {
     return view('welcome');
 });
-Route::get('/', 'App\Http\Controllers\TestController@controllerMethod');
+Route::get('/patth', 'TestController@controllerMethod');
+
+Route::any('{slug}', function(){
+    return view('welcome');
+});
+
 
