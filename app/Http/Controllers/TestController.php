@@ -11,7 +11,7 @@ class TestController extends Controller
         // return view ('welcome');
 
         return response()->json([
-            'msg'=>'this is data'
+            'msg'=>'this is datsa'
         ]);
     }
 }

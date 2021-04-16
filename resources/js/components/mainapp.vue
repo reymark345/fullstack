@@ -1,8 +1,9 @@
 <template>
     <div>
-      <h1>fasfasf</h1>
-
+      <h1>mainapp</h1>
+      <router-view></router-view>
     </div>
 </template>
+
 
 
