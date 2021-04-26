@@ -15,7 +15,7 @@ export default {
     created(){
 
     },
-    mounted(){
+    mounted(){ 
         console.log(this.$refs.myref)
     }
 }
